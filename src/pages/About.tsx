@@ -74,6 +74,22 @@ const About = () => {
 
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
+                Видео о Нас
+              </h2>
+              <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-4 shadow-xl mb-12">
+                <div className="relative aspect-video rounded-2xl overflow-hidden bg-muted flex items-center justify-center">
+                  <div className="text-center">
+                    <Icon name="Video" size={64} className="text-primary mx-auto mb-4" />
+                    <p className="text-muted-foreground text-lg">
+                      Добавьте ссылку на видео или загрузите файл
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-12">
+              <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
                 Наши Приключения
               </h2>
               <div className="grid md:grid-cols-3 gap-6">
