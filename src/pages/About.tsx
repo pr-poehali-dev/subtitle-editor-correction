@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+
 import Icon from '@/components/ui/icon';
 
 const About = () => {
@@ -19,23 +19,7 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-accent via-background to-muted">
-      <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-border">
-        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
-            Обувь для Лапок
-          </Link>
-          <div className="flex gap-8">
-            <Link to="/" className="text-foreground hover:text-primary transition-colors font-medium">
-              Главная
-            </Link>
-            <Link to="/about" className="text-primary font-semibold">
-              Обо мне
-            </Link>
-          </div>
-        </div>
-      </nav>
-
-      <main className="pt-32 pb-20 px-6">
+      <main className="pt-20 pb-20 px-6">
         <div className="container mx-auto max-w-4xl">
           <div className="animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-8 text-center">
@@ -130,13 +114,7 @@ const About = () => {
         </div>
       </main>
 
-      <footer className="bg-white/80 backdrop-blur-md border-t border-border py-8">
-        <div className="container mx-auto px-6 text-center">
-          <p className="text-muted-foreground">
-            © 2024 Обувь для Лапок. Создано с любовью к питомцам.
-          </p>
-        </div>
-      </footer>
+
     </div>
   );
 };
